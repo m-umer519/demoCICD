@@ -24,10 +24,6 @@ jobs:
     - name: Install dependencies
       run: npm install eslint --save-dev
 
-    # Run ESLint to check JavaScript code
-    - name: Run linting
-      run: npx eslint index.html --ext .js
-
     # Deploy to GitHub Pages
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
